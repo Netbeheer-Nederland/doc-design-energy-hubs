@@ -30,6 +30,13 @@ Dit ontwerp is akkoord bevonden door de volgende stakeholders:
 > [!NOTE]
 > TODO: Als [rol] wil ik [wens], want [business value]
 
+## Dataproducten (Ist)
+
+### Dataproduct: Nettopologie
+
+> [!NOTE]
+> TODO
+
 # Kwaliteitseisen
 
 > [!NOTE]
@@ -63,11 +70,6 @@ Dit ontwerp is akkoord bevonden door de volgende stakeholders:
 > TODO
 
 ## Value Stream Stage: Evaluatie en verbeteren
-
-> [!NOTE]
-> TODO
-
-## Dataproduct: Nettopologie
 
 > [!NOTE]
 > TODO
