@@ -30,7 +30,7 @@ Dit ontwerp is akkoord bevonden door de volgende stakeholders:
 > [!NOTE]
 > TODO: Als [rol] wil ik [wens], want [business value]
 
-## Dataproducten (Ist)
+## Dataproducten
 
 ### Dataproduct: Nettopologie
 
@@ -74,11 +74,6 @@ Dit ontwerp is akkoord bevonden door de volgende stakeholders:
 > [!NOTE]
 > TODO
 
-# Risico's & mitigatie
-
-> [!NOTE]
-> TODO
-
 # Beslissingen & aannames
 
 > [!NOTE]
@@ -89,7 +84,7 @@ Dit ontwerp is akkoord bevonden door de volgende stakeholders:
 > [!NOTE]
 > TODO
 
-# Werkpakketten
+# Risico's & mitigatie
 
 > [!NOTE]
-> TODO: epics, features en fasering
+> TODO
