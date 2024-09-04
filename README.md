@@ -16,7 +16,7 @@ Dit ontwerp is akkoord bevonden door de volgende stakeholders:
 - [ ] TODO: beperken tot capabilities van de netbeheerder om dataproducten aan
   te kunnen leveren
 - [ ] TODO: input zijn functionele eisen, customer journey van WG EnergyHubs,
-  Blauwdruk EIGEN, ChatGPT
+  Blauwdruk EIGEN, ChatGPT, Doelarchitectuur Datadelen (NBEA)
 - [ ] TODO: Perspectief beperkt zich tot dat van regionale netbeheerder, met
   focus op het leveren van dataproducten
 - [ ] TODO: Stakeholders (GV-klant, gemeente, ontwikkelbedrijf,
@@ -50,8 +50,8 @@ lokale energiesystemen tot stand komen.
 > Een waardestroom is een reeks stappen die een organisatie doorloopt om waarde
 > te creëren en te leveren aan haar klanten, van begin tot eind. Het omvat alle
 > activiteiten, van het identificeren van de behoefte tot het uiteindelijke
-> leveren van het product of de dienst, waarbij elke stap bijdraagt aan het
-> verhogen van de waarde voor de eindgebruiker.
+> leveren van het product of de dienst. Elke stap draagt bij aan het verhogen
+> van de waarde voor de eindgebruiker.
 
 Daarnaast wordt belicht hoe de geïmplementeerde oplossingen bijdragen aan het
 optimaal benutten van beschikbare energiebronnen en aan het versterken van de
@@ -107,9 +107,9 @@ kunnen leveren.
 |C.6.4.1 Marktdata beschikbaar maken voor partijen|Beschikbaar maken van **gesloten data** als dataproduct|
 |C.6.4.2 Open data beschikbaar maken voor derden  |Beschikbaar maken van **open data** als dataproduct    |
 
-Voor de verschillende stappen van de waardestroom worden *Business Services*
-uit capabilities gebruikt om een koppeling te maken tussen de bedrijfsprocessen
-van de verschillende processen en de dienst die wordt geleverd.
+*Business Services* vanuit capabilitie duiden welke ondersteuning vanuit de
+netbeheerders vereist is voor uitvoer van de waardestroomstappen om tot een
+geoptimaliseerd lokaal energiesysteem te komen.
 
 ## Verkennen
 
@@ -118,6 +118,24 @@ gehouden en of er voldoende momentum kan worden gecreëerd bij bedrijven om een
 (voorloper voor) een *Energy Hub* op te zetten.
 
 ![Verkennen](assets/verkennen-20240904.png)
+
+Het diagram illustreert hoe de aangegeven behoefte tot het optimaliseren van
+capaciteit van de GV-klant het proces "Analyseren behoefte" start, wat leidt
+tot de status "behoefte geanalyseerd". Binnen dit proces wordt de basis gelegd
+voor verdere stappen in de waardestroom. Het betrokken Ontwikkelbedrijf is
+verantwoordelijk voor het uitvoeren van de analyse, namens de GV-klant.
+
+Ter ondersteuning van de analyse worden de volgende dataproducten gevraagd:
+
+* **Nettopologie**: beschrijving van de topologie van een (mogelijke) *Energy
+  Hub*. Het gaat hier zowel om informatie van *aansluitingen* die in aanmerking
+  komen voor deelname aan de *Energy Hub*, als geografische informatie;
+* TODO: meer dataproducten? Herleiden naar functionele eisen (kan in later
+  hoofdstuk).
+
+Deze dataproducten worden gerealiseerd via capability [C.6.4.2 Open data
+beschikbaar maken voor
+derden)[#c.6.4.2-open-data-beschikbaar-maken-voor-derden].
 
 ## Onderzoek en ontwerp
 
@@ -135,6 +153,16 @@ gehouden en of er voldoende momentum kan worden gecreëerd bij bedrijven om een
 > TODO
 
 ## Evaluatie en verbeteren
+
+> [!NOTE]
+> TODO
+
+## C.6.4.1 Marktdata beschikbaar maken voor partijen
+
+> [!NOTE]
+> TODO
+
+## C.6.4.2 Open data beschikbaar maken voor derden
 
 > [!NOTE]
 > TODO
