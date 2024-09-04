@@ -9,32 +9,29 @@ Dit ontwerp is akkoord bevonden door de volgende stakeholders:
 
 - [ ] TODO
 
-# Executive summary
-
-> [!NOTE]
-> TODO
-
 # Scope, strategie & motivatie
 
-> [!NOTE]
-> TODO: beperken tot waardestroom "Optimaliseren van capaciteit voor lokale
-> energiesystemen.
-> TODO: input zijn functionele eisen, customer journey van WG EnergyHubs,
-> Blauwdruk EIGEN, ChatGPT.
-> TODO: Perspectief beperkt zich tot dat van regionale netbeheerder, met focus
-> op het leveren van dataproducten.
-> TODO: Stakeholders (GV-klant, gemeente, ontwikkelbedrijf, realisatiebedrijf,
-> exploitatiebedrijf)
-
-# Current State (Ist)
-
-> [!NOTE]
-> TODO: korte beschrijving versnippering landschap tussen netbeheerders
+- [ ] TODO: beperken tot waardestroom "Optimaliseren van capaciteit voor lokale
+  energiesystemen
+- [ ] TODO: beperken tot capabilities van de netbeheerder om dataproducten aan
+  te kunnen leveren
+- [ ] TODO: input zijn functionele eisen, customer journey van WG EnergyHubs,
+  Blauwdruk EIGEN, ChatGPT
+- [ ] TODO: Perspectief beperkt zich tot dat van regionale netbeheerder, met
+  focus op het leveren van dataproducten
+- [ ] TODO: Stakeholders (GV-klant, gemeente, ontwikkelbedrijf,
+  realisatiebedrijf, exploitatiebedrijf)
 
 # Functionele eisen
 
-> [!NOTE]
-> TODO: Als [rol] wil ik [wens], want [business value]
+Functionele eisen specificeren de specifieke functionaliteiten en prestaties
+die een systeem of product moet bieden om aan de behoeften en verwachtingen van
+de gebruikers te voldoen. Ze beschrijven de vereiste taken, processen en
+interacties die het systeem moet ondersteunen om de beoogde doelen te bereiken.
+
+|#  |Als        |Wil ik|Want  |
+|---|-----------|------|------|
+| 1.|stakeholder|iets  |waarde|
 
 # Kwaliteitseisen
 
@@ -62,24 +59,26 @@ energie-infrastructuur voor de lange termijn.
 
 ## Value Stream: Optimaliseren van capaciteit voor lokale energiesystemen
 
-In dit hoofdstuk wordt de waardestroom stap voor stap uitgewerkt, waarbij elke
+In deze sectie wordt de waardestroom stap voor stap uitgewerkt, waarbij elke
 stap van de waardestroom gedetailleerd wordt beschreven om de optimale
 capaciteit voor lokale energiesystemen te realiseren. De uitwerking van elke
 stap van de waardestroom beschrijft het benodigde landschap vanuit proces-,
 applicatie-, platform- en dataperspectief.
 
-![Optimaliseren capaciteit](assets/value_stream-20240904.png)
+![Optimaliseren van capaciteit](assets/value_stream-20240904.png)
 
-Voor de inhoudelijke uitwerking van de waardestroom wordt de blauwdruk Energy
-Hubs van EIGEN gebruikt. Voor dit ontwerp worden de meest relevante punten als
-context opgevoerd. Voor meer detail, zie de blauwdruk.
+> [!NOTE]
+> Voor de inhoudelijke uitwerking van de waardestroom wordt de [Blauwdruk
+> Energy Hubs](https://www.eigen-energyhubs.nl/de-blauwdruk/) van EIGEN
+> gebruikt. Voor dit ontwerp worden de meest relevante punten als context
+> opgevoerd. Voor meer detail, zie de Blauwdruk.
 
 ### Stappen
 
 Elke stap in de waardestroom creëert waarde voor de primaire stakeholder, de
 grootverbruikklant (GV-klant):
 
-| Stap                      | Waarde                                          |
+|Stap                       |Waarde                                           |
 |---------------------------|-------------------------------------------------|
 |**Verkennen**              |Biedt inzicht in het potentieel van het opzetten van een *Energy Hub* en brengt mogelijke risico's in kaart|
 |**Onderzoek & ontwerp**    |Legt de juridische en technische basis en voorziet in een concreet implementatiepad|
@@ -87,30 +86,55 @@ grootverbruikklant (GV-klant):
 |**Operationeel beheer**    |Biedt inzicht en optimaliseert prestaties van de *Energy Hub*|
 |**Evaluatie & verbetering**|Voorziet in langdurige efficiëntie en duurzaamheid van de *Energy Hub*|
 
-## Value Stream Stage: Verkennen
+Alle bovengenoemde stappen worden verder toegelicht in de volgende
+hoofdstukken.
+
+### Capabilities
+
+Vanuit het perspectief van de dataleverende netbeheerder moeten een aantal
+*capabilities* ingevuld worden om daadwerkelijk de gevraagde dataproducten te
+kunnen leveren.
+
+> [!NOTE]
+> Een *capability* verwijst naar de specifieke vaardigheden, middelen of
+> processen die een organisatie in staat stellen om bepaalde taken effectief
+> uit te voeren en strategische doelstellingen te bereiken. Benoemde
+> capabilities zijn onderdeel van het [NBility Capability
+> Model](https://www.edsn.nl/nbility-model/).
+
+|Capability                                       |Beschrijving                                           |
+|-------------------------------------------------|-------------------------------------------------------|
+|C.6.4.1 Marktdata beschikbaar maken voor partijen|Beschikbaar maken van **gesloten data** als dataproduct|
+|C.6.4.2 Open data beschikbaar maken voor derden  |Beschikbaar maken van **open data** als dataproduct    |
+
+Voor de verschillende stappen van de waardestroom worden *Business Services*
+uit capabilities gebruikt om een koppeling te maken tussen de bedrijfsprocessen
+van de verschillende processen en de dienst die wordt geleverd.
+
+## Verkennen
 
 Onderzoeken met welke lokale omstandigheden rekening kan en moet worden
 gehouden en of er voldoende momentum kan worden gecreëerd bij bedrijven om een
-voorloper voor een *Energy Hub* op te zetten.
+(voorloper voor) een *Energy Hub* op te zetten.
 
 ![Verkennen](assets/verkennen-20240904.png)
 
-## Value Stream Stage: Onderzoek en ontwerp
+## Onderzoek en ontwerp
 
 > [!NOTE]
 > TODO
 
-## Value Stream Stage: Realiseren
+## Realiseren
 
 > [!NOTE]
 > TODO
 
-## Value Stream Stage: Operationeel beheer
+## Operationeel beheer
 
 > [!NOTE]
 > TODO
 
-## Value Stream Stage: Evaluatie en verbeteren
+## Evaluatie en verbeteren
 
 > [!NOTE]
 > TODO
