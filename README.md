@@ -134,8 +134,7 @@ Ter ondersteuning van de analyse worden de volgende dataproducten gevraagd:
   hoofdstuk).
 
 Deze dataproducten worden gerealiseerd via capability [C.6.4.2 Open data
-beschikbaar maken voor
-derden)[#c.6.4.2-open-data-beschikbaar-maken-voor-derden].
+beschikbaar maken voor derden](#c642-open-data-beschikbaar-maken-voor-derden).
 
 ## Onderzoek en ontwerp
 
