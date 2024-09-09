@@ -73,7 +73,7 @@ applicatie-, platform- en dataperspectief.
 > Voor de inhoudelijke uitwerking van de waardestroom wordt de [Blauwdruk
 > Energy Hubs](https://www.eigen-energyhubs.nl/de-blauwdruk/) van EIGEN
 > gebruikt. Voor dit ontwerp worden de meest relevante punten als context
-> opgevoerd. Voor meer detail, zie de Blauwdruk.
+> opgevoerd. Voor meer detail, zie de blauwdruk.
 
 ### Stappen
 
@@ -133,7 +133,7 @@ Ter ondersteuning van de analyse worden de volgende dataproducten gevraagd:
 
 |Dataproduct |Functionele eisen|Beschrijving|Type|Oorsprong|
 |------------|-----------------|------------|----|---------|
-|Nettopologie|5                |Beschrijving van de topologie van een (mogelijke) *Energy Hub*. Het gaat hier zowel om informatie van *aansluitingen* die in aanmerking komen voor deelname aan de *Energy Hub*, als geografische informatie|Open|Decentraal|
+|[Nettopologie](https://netbeheer-nederland.github.io/dp-eh-nettopologie/)|5                |Beschrijving van de topologie van een (mogelijke) *Energy Hub*. Het gaat hier zowel om informatie van *aansluitingen* die in aanmerking komen voor deelname aan de *Energy Hub*, als geografische informatie|Open|Decentraal|
 |SBI-profiel |1                |Algemene verbruiksdata per bedrijfsproces|Open|Centraal|
 
 - [ ] TODO: zijn meer dataproducten nodig voor de verkenningsfase?
@@ -187,13 +187,26 @@ dataproducten gevraagd:
 > [!NOTE]
 > TODO
 
+- [ ] TODO: informatie wordt specifiek uitgeleverd per (potentiële) EnergyHub
+
 # Beslissingen & aannames
 
-> [!NOTE]
-> TODO
+## Beslissingen
 
-- [ ] TODO: ontvangt de netbeheerder gegevens van e.g. aannemer?
+## Aannames
+
+- [ ] TODO: ontvangt de netbeheerder gegevens van b.v. een aannemer?
+- [ ] TODO: wie bepaalt het energieprofiel van een specifieke GV-klant die
+      onderdeel is van een EnergyHub?
 - [ ] TODO: hoe handhaaft een netbeheerder het energieprofiel van een EnergyHub?
+- [ ] De blauwdruk vraagt om informatie over de "netsituatie en topologie".
+  Binnen dit ontwerp wordt deze informatiebehoefte concreet gemaakt naar:
+  - (actuele) capaciteit- en belastingprofielen van station,
+    transformator(veld) en kabel;
+  - meetgegevens van GV-klanten;
+  - geografische informatie van netcomponenten (huidig & gepland);
+  - connectiviteitsinformatie van netcomponenten (huidig & gepland);
+  - aansluit- en transportovereenkomst behorende bij een aansluiting (ATO).
 
 # Uitzonderingen op architectuurprincipes
 
