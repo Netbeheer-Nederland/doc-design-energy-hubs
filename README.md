@@ -3,12 +3,6 @@
 > [!NOTE]
 > TODO
 
-# Akkoord
-
-Dit ontwerp is akkoord bevonden door de volgende stakeholders:
-
-- [ ] TODO
-
 # Scope, strategie & motivatie
 
 - [ ] TODO: beperken tot waardestroom "Optimaliseren van capaciteit voor lokale
@@ -32,6 +26,42 @@ interacties die het systeem moet ondersteunen om de beoogde doelen te bereiken.
 |#  |Als        |Wil ik|Want  |
 |---|-----------|------|------|
 | 1.|stakeholder|iets  |waarde|
+
+
+## Verkennen
+
+* Standaard verbruiksprofielen van bedrijfsprocessen (met een resolutie van 15
+  minuten)
+* Standaard opwek profielen voor verschillende (weers)omstandigheden
+* Een plattegrond van het bedrijventerrein (bijvoorbeeld Google Maps)
+* Een overzicht van beschikbare grond voor het realiseren van
+  opslaginstallaties, laadfaciliteiten en duurzame energie opwek installaties
+* Informatie van de netbeheerder over de lokale netsituatie, beperkingen en
+  uitbreidingsplannen
+* Informatie uit bestemmingsplannen en vergunningen
+
+## Onderzoek & ontwerp
+
+* Verbruiksprofielen (vermogen in kW) van *bedrijfsprocessen* op basis van
+  historische data (met een resolutie van 15 minuten)
+* De netsituatie en topologie (hoe zijn de bedrijven elektrisch met elkaar
+  verbonden, met welke kabels en op welke velden zijn zij aangesloten)
+* Een overzicht van het opgestelde vermogen van de lokale
+  elektriciteitsopwekking per type en per invoedingspunt
+* Een overzicht van de huidige capaciteit (kWh) en maximaal vermogen (kW) van
+  bestaande batterij installaties per aansluiting
+* Een overzicht van de huidige mogelijkheden voor vraagsturing
+* Een doorkijk van de toename van de vermogensvraag op basis van
+  verduurzamingsplannen van de bedrijven (afbouw afhankelijkheid fossiele
+  brandstoffen en besparingsmaatregelen)
+
+## Realiseren
+
+* TODO: ontvangt de netbeheerder gegevens van e.g. aannemer?
+
+## Operationeel beheer
+
+* TODO: hoe handhaaft een netbeheerder het energieprofiel van een EnergyHub?
 
 # Kwaliteitseisen
 
@@ -121,25 +151,42 @@ gehouden en of er voldoende momentum kan worden gecreëerd bij bedrijven om een
 
 Het diagram illustreert hoe de aangegeven behoefte tot het optimaliseren van
 capaciteit van de GV-klant het proces "Analyseren behoefte" start, wat leidt
-tot de status "behoefte geanalyseerd". Binnen dit proces wordt de basis gelegd
-voor verdere stappen in de waardestroom. Het betrokken Ontwikkelbedrijf is
-verantwoordelijk voor het uitvoeren van de analyse, namens de GV-klant.
+tot de status "Behoefte geanalyseerd". Binnen dit proces wordt de basis gelegd
+voor verdere stappen in de
+[waardestroom](#value-stream-optimaliseren-van-capaciteit-voor-lokale-energiesystemen).
+Het nieuw op te zetten Ontwikkelbedrijf is verantwoordelijk voor het uitvoeren
+van de analyse, namens de GV-klanten.
 
 Ter ondersteuning van de analyse worden de volgende dataproducten gevraagd:
 
 * **Nettopologie**: beschrijving van de topologie van een (mogelijke) *Energy
   Hub*. Het gaat hier zowel om informatie van *aansluitingen* die in aanmerking
   komen voor deelname aan de *Energy Hub*, als geografische informatie;
+* **SBI-profiel**: algemene verbruiksdata per bedrijfsproces;
 * TODO: meer dataproducten? Herleiden naar functionele eisen (kan in later
   hoofdstuk).
 
-Deze dataproducten worden gerealiseerd via capability [C.6.4.2 Open data
+Deze dataproducten worden gerealiseerd via de capability [C.6.4.2 Open data
 beschikbaar maken voor derden](#c642-open-data-beschikbaar-maken-voor-derden).
 
-## Onderzoek en ontwerp
+## Onderzoek & ontwerp
 
-> [!NOTE]
-> TODO
+Het ontwikkelen van gedetailleerde oplossingen om de capaciteit van lokale
+energiesystemen te optimaliseren. Het betreft hier technische ontwikkeling,
+economische analyse, simulatie & modellering en wet- en regelgeving.
+
+![Onderzoek & ontwerp](assets/onderzoek-20240909.png)
+
+In deze waardestroomstap wordt de verkenningsfase, na een positief advies,
+opgevolgd met diepgaand onderzoek en ontwerp. Het ontwikkelbedrijf verwerkt het
+resultaat van het onderzoek en ontwerp in een "Beslisdocument", wat effectief
+het *businessplan* voor het op te richten exploitatiebedrijf is. Alle
+bedrijfsprocessen worden uitgevoerd door het ontwikkelbedrijf.
+
+Ter ondersteuning van het beslisdocument worden de volgende dataproducten
+gevraagd:
+
+* TODO
 
 ## Realiseren
 
@@ -151,7 +198,7 @@ beschikbaar maken voor derden](#c642-open-data-beschikbaar-maken-voor-derden).
 > [!NOTE]
 > TODO
 
-## Evaluatie en verbeteren
+## Evaluatie & verbeteren
 
 > [!NOTE]
 > TODO
