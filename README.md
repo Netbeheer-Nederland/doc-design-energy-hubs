@@ -20,9 +20,9 @@ zijn overgenomen uit de blauwdruk.
 
 Voor de netbeheerder zijn de dataproducten behorende bij
 [waardestroomstappen](#stappen) en de uitwerking van de
-[capabilities](#capabilities) het meest relevant, dit is basis voor het uit te
-voeren werk door de verschillende implementatiepartijen (e.g. EDSN, *DSO*s en
-*TSO*).
+[capabilities](#capabilities) het meest relevant, dit is de basis voor het uit
+te voeren werk door de verschillende implementatiepartijen (e.g. EDSN, *DSO*s
+en *TSO*).
 
 ## Leeswijzer
 
