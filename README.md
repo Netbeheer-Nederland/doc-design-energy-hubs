@@ -10,6 +10,15 @@ beschrijft de stappen die nodig zijn om kansen te verkennen, oplossingen te
 ontwikkelen, en de systemen effectief te beheren, met als doel een
 toekomstbestendig en schaalbaar lokaal energiemodel te creëren.
 
+> [!NOTE]
+> Een *Energy Hub* functioneert als een (virtueel) lokaal energiesysteem,
+> waarin lokaal (duurzaam) opgewekte elektriciteit, warmte, koude en biogassen
+> zoveel mogelijk ook lokaal worden benut, via een slim balancering systeem
+> afgestemd op de vraag. Discrepanties tussen vraag en aanbod worden opgevangen
+> via opslag- en flex/conversiesystemen en via uitwisselingen met gereguleerde
+> netten binnen de randvoorwaarde van kwaliteit van levering en beschikbaarheid
+> van infrastructuur.
+
 De nadruk in dit document ligt op het perspectief van de netbeheerder; welke
 informatie moet worden verstrekt aan de verschillende stakeholders om een
 passende oplossing voor het optimaliseren van capaciteit te kunnen
@@ -130,8 +139,8 @@ hoofdstukken.
 ### Capabilities
 
 Vanuit het perspectief van de dataleverende netbeheerder moeten een aantal
-*capabilities* ingevuld worden om daadwerkelijk de gevraagde dataproducten te
-kunnen leveren.
+*capabilities* ingevuld worden om daadwerkelijk de gevraagde waarde
+(dataproducten) te kunnen leveren.
 
 > [!NOTE]
 > Een *capability* verwijst naar de specifieke vaardigheden, middelen of
