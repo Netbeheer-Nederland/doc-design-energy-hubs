@@ -1,9 +1,45 @@
 # Inleiding
 
-> [!NOTE]
-> TODO
+Dit ontwerp (*solution design*) biedt een gedetailleerde aanpak voor het
+implementeren en optimaliseren van lokale energiesystemen, gebaseerd op de
+waardestroom "Optimaliseren van capaciteit". In een tijd waarin
+energie-efficiëntie en duurzaamheid steeds belangrijker worden, richt dit
+ontwerp zich op het verbeteren van de capaciteit van lokale systemen door
+middel van technologische innovatie en strategische planning. Het ontwerp
+beschrijft de stappen die nodig zijn om kansen te verkennen, oplossingen te
+ontwikkelen, en de systemen effectief te beheren, met als doel een
+toekomstbestendig en schaalbaar lokaal energiemodel te creëren.
 
-# Scope, strategie & motivatie
+De nadruk in dit document ligt op het perspectief van de netbeheerder; welke
+informatie moet worden verstrekt aan de verschillende stakeholders om een
+passende oplossing voor het optimaliseren van capaciteit te kunnen
+implementeren? De context voor dit document is ontleend vanuit de [Blauwdruk
+Energy Hubs](https://www.eigen-energyhubs.nl/de-blauwdruk/), waarbij op deze
+blauwdruk wordt voortgebouwd. Ook de definities (her)gebruikt in dit document
+zijn overgenomen uit de blauwdruk.
+
+Voor de netbeheerder zijn de dataproducten behorende bij
+[waardestroomstappen](#stappen) en de uitwerking van de
+[capabilities](#capabilities) het meest relevant, dit is basis voor het uit te
+voeren werk door de verschillende implementatiepartijen (e.g. EDSN, *DSO*s en
+*TSO*).
+
+## Leeswijzer
+
+Het ontwerp is gestructureerd rondom de waardestroom [Optimaliseren van
+capaciteit](#value-stream-optimaliseren-van-capaciteit-voor-lokale-energiesystemen),
+waarbij elke waardestroomstap – *Verkennen*, *Onderzoek & Ontwerp*,
+*Realiseren*, *Operationeel Beheer*, en *Evaluatie & Verbetering* – stap voor
+stap wordt toegelicht. Per fase worden de activiteiten, actoren, systemen en
+gewenste resultaten beschreven. Daarnaast wordt per waardestroomstap een
+gedetailleerde invulling van de gevraagde informatiebehoefte beschreven als
+dataproduct.
+
+De cohesie van de oplossing wordt toetsbaar gemaakt door de koppeling te maken
+tussen *functionele- en kwaliteitseisen*, *waardestroom* (gecreëerde waarde),
+*capabilities* en *proces- en data-uitwerking*.
+
+# Scope
 
 - [ ] TODO: beperken tot waardestroom "Optimaliseren van capaciteit voor lokale
   energiesystemen
@@ -160,7 +196,7 @@ dataproducten gevraagd:
 
 |Dataproduct|Functionele eisen|Beschrijving|Type|Oorsprong|
 |-----------|-----------------|------------|----|---------|
-|GV-meetdata|4                |Verbruiksprofielen (vermogen in kW) van *bedrijfsprocessen* op basis van historische data|Gesloten|Centraal|
+|GV-meetdata|4                |TODO: Verbruiksprofielen (vermogen in kW) van *bedrijfsprocessen* op basis van historische data|Gesloten|Centraal|
 
 ## Realiseren
 
