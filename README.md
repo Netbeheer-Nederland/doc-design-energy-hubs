@@ -23,45 +23,17 @@ die een systeem of product moet bieden om aan de behoeften en verwachtingen van
 de gebruikers te voldoen. Ze beschrijven de vereiste taken, processen en
 interacties die het systeem moet ondersteunen om de beoogde doelen te bereiken.
 
-|#  |Als        |Wil ik|Want  |
-|---|-----------|------|------|
-| 1.|stakeholder|iets  |waarde|
-
-
-## Verkennen
-
-* Standaard verbruiksprofielen van bedrijfsprocessen (met een resolutie van 15
-  minuten)
-* Standaard opwek profielen voor verschillende (weers)omstandigheden
-* Een plattegrond van het bedrijventerrein (bijvoorbeeld Google Maps)
-* Een overzicht van beschikbare grond voor het realiseren van
-  opslaginstallaties, laadfaciliteiten en duurzame energie opwek installaties
-* Informatie van de netbeheerder over de lokale netsituatie, beperkingen en
-  uitbreidingsplannen
-* Informatie uit bestemmingsplannen en vergunningen
-
-## Onderzoek & ontwerp
-
-* Verbruiksprofielen (vermogen in kW) van *bedrijfsprocessen* op basis van
-  historische data (met een resolutie van 15 minuten)
-* De netsituatie en topologie (hoe zijn de bedrijven elektrisch met elkaar
-  verbonden, met welke kabels en op welke velden zijn zij aangesloten)
-* Een overzicht van het opgestelde vermogen van de lokale
-  elektriciteitsopwekking per type en per invoedingspunt
-* Een overzicht van de huidige capaciteit (kWh) en maximaal vermogen (kW) van
-  bestaande batterij installaties per aansluiting
-* Een overzicht van de huidige mogelijkheden voor vraagsturing
-* Een doorkijk van de toename van de vermogensvraag op basis van
-  verduurzamingsplannen van de bedrijven (afbouw afhankelijkheid fossiele
-  brandstoffen en besparingsmaatregelen)
-
-## Realiseren
-
-* TODO: ontvangt de netbeheerder gegevens van e.g. aannemer?
-
-## Operationeel beheer
-
-* TODO: hoe handhaaft een netbeheerder het energieprofiel van een EnergyHub?
+|#  |Als             |Wil ik|Want  |
+|--#|----------------|------|------|
+| 1.|Ontwikkelbedrijf|Standaard verbruiksprofielen van bedrijfsprocessen (met een resolutie van 15 minuten)|?|
+| 2.|Ontwikkelbedrijf|Standaard opwek profielen voor verschillende (weers)omstandigheden|?|
+| 3.|Ontwikkelbedrijf|Informatie van de netbeheerder over de lokale netsituatie, beperkingen en uitbreidingsplannen|?|
+| 4.|Ontwikkelbedrijf|Verbruiksprofielen (vermogen in kW) van *bedrijfsprocessen* op basis van historische data (met een resolutie van 15 minuten)|?|
+| 5.|Ontwikkelbedrijf|De netsituatie en topologie (hoe zijn de bedrijven elektrisch met elkaar verbonden, met welke kabels en op welke velden zijn zij aangesloten)|?|
+| 6.|Ontwikkelbedrijf|Een overzicht van het opgestelde vermogen van de lokale elektriciteitsopwekking per type en per invoedingspunt|?|
+| 7.|Ontwikkelbedrijf|Een overzicht van de huidige capaciteit (kWh) en maximaal vermogen (kW) van bestaande batterij-installaties per aansluiting|?|
+| 8.|Ontwikkelbedrijf|Een overzicht van de huidige mogelijkheden voor vraagsturing|?|
+| 9.|Ontwikkelbedrijf|Een doorkijk van de toename van de vermogensvraag op basis van verduurzamingsplannen van de bedrijven|?|
 
 # Kwaliteitseisen
 
@@ -224,6 +196,9 @@ gevraagd:
 
 > [!NOTE]
 > TODO
+
+- [ ] TODO: ontvangt de netbeheerder gegevens van e.g. aannemer?
+- [ ] TODO: hoe handhaaft een netbeheerder het energieprofiel van een EnergyHub?
 
 # Uitzonderingen op architectuurprincipes
 
