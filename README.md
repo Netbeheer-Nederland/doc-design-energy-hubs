@@ -24,7 +24,7 @@ de gebruikers te voldoen. Ze beschrijven de vereiste taken, processen en
 interacties die het systeem moet ondersteunen om de beoogde doelen te bereiken.
 
 |#  |Als             |Wil ik                                                                               |Want|
-|--#|----------------|-------------------------------------------------------------------------------------|----|
+|--:|----------------|-------------------------------------------------------------------------------------|----|
 | 1.|Ontwikkelbedrijf|Standaard verbruiksprofielen van bedrijfsprocessen (met een resolutie van 15 minuten)|?|
 | 2.|Ontwikkelbedrijf|Standaard opwek profielen voor verschillende (weers)omstandigheden|?|
 | 3.|Ontwikkelbedrijf|Informatie van de netbeheerder over de lokale netsituatie, beperkingen en uitbreidingsplannen|?|
