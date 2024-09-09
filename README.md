@@ -26,7 +26,7 @@ interacties die het systeem moet ondersteunen om de beoogde doelen te bereiken.
 |#  |Als             |Wil ik                                                                               |Want|
 |--:|----------------|-------------------------------------------------------------------------------------|----|
 | 1.|Ontwikkelbedrijf|Standaard verbruiksprofielen van bedrijfsprocessen (met een resolutie van 15 minuten)|?|
-| 2.|Ontwikkelbedrijf|Standaard opwek profielen voor verschillende (weers)omstandigheden|?|
+| 2.|Ontwikkelbedrijf|Standaard opwekprofielen voor verschillende (weers)omstandigheden|?|
 | 3.|Ontwikkelbedrijf|Informatie van de netbeheerder over de lokale netsituatie, beperkingen en uitbreidingsplannen|?|
 | 4.|Ontwikkelbedrijf|Verbruiksprofielen (vermogen in kW) van *bedrijfsprocessen* op basis van historische data (met een resolutie van 15 minuten)|?|
 | 5.|Ontwikkelbedrijf|De netsituatie en topologie (hoe zijn de bedrijven elektrisch met elkaar verbonden, met welke kabels en op welke velden zijn zij aangesloten)|?|
