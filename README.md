@@ -61,6 +61,23 @@ tussen *functionele- en kwaliteitseisen*, *waardestroom* (gecreëerde waarde),
 - [ ] TODO: Stakeholders (GV-klant, gemeente, ontwikkelbedrijf,
   realisatiebedrijf, exploitatiebedrijf)
 
+## Stakeholders
+
+De volgende stakeholders zijn betrokken binnen dit ontwerp:
+
+* *GV-klant*: verbruikt, wekt of slaat elektrische energie op binnen de eigen
+  locatie;
+* *netbeheerder*: beheert de fysieke netinfrastructuur en faciliteert het
+  functioneren van de markt;
+* *ontwikkelbedrijf*: regie-organisatie om tot de benodigde aanpassingen en
+  randvoorwaarden voor een *Energy Hub* te komen. Fungeert als voorloper voor
+  het exploitatiebedrijf (de *Energy Hub*);
+* *realisatiebedrijf*: door ontwikkelbedrijf opgerichte projectorganisatie;
+* *exploitatiebedrijf*: investeert in de benodigde *assets* en draagt zorg dat
+  de balans tussen vraag en aanbod van (elektrische) energie op een economisch
+  optimale manier en binnen de randvoorwaarden van de netbeheerder(s) wordt
+  afgestemd.
+
 # Functionele eisen
 
 Functionele eisen specificeren de specifieke functionaliteiten en prestaties
@@ -229,10 +246,16 @@ dataproducten gevraagd:
 
 ## C.6.4.2 Open data beschikbaar maken voor derden
 
+Deze *capability beschrijft het vermogen om open data beschikbaar te maken voor
+derden ten behoeve van energietransitie of anderszins omgevingsvraagstukken uit
+te wisselen met klanten en/of andere stakeholders als gemeenten,
+energiecorporaties, warmtebedrijven, woningcorporaties, provincies,
+rijksoverheid en consultancybureau's. Deze capability betreft open data.
+
 ![C.6.4.2 Open data beschikbaar maken voor derden](assets/c642_open_data_beschikbaar_maken_voor_derden-20240909.png)
 
-- [ ] TODO: informatie wordt specifiek uitgeleverd per (potentiële) EnergyHub
-- [ ] TODO: verdeling taken/bevoegdheden/verantwoordelijkheden
+- [ ] TODO: informatie wordt specifiek uitgeleverd per (potentiële) EnergyHub?
+- [ ] TODO: verdeling taken/bevoegdheden/verantwoordelijkheden?
 
 # Beslissingen & aannames
 
