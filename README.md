@@ -131,12 +131,12 @@ van de analyse, namens de GV-klanten.
 
 Ter ondersteuning van de analyse worden de volgende dataproducten gevraagd:
 
-* **Nettopologie**: beschrijving van de topologie van een (mogelijke) *Energy
-  Hub*. Het gaat hier zowel om informatie van *aansluitingen* die in aanmerking
-  komen voor deelname aan de *Energy Hub*, als geografische informatie;
-* **SBI-profiel**: algemene verbruiksdata per bedrijfsproces;
-* TODO: meer dataproducten? Herleiden naar functionele eisen (kan in later
-  hoofdstuk).
+|Dataproduct |Functionele eisen|Beschrijving|Type|Oorsprong|
+|------------|-----------------|------------|----|---------|
+|Nettopologie|5                |Beschrijving van de topologie van een (mogelijke) *Energy Hub*. Het gaat hier zowel om informatie van *aansluitingen* die in aanmerking komen voor deelname aan de *Energy Hub*, als geografische informatie|Open|Decentraal|
+|SBI-profiel |1                |Algemene verbruiksdata per bedrijfsproces|Open|Centraal|
+
+- [ ] TODO: zijn meer dataproducten nodig voor de verkenningsfase?
 
 Deze dataproducten worden gerealiseerd via de capability [C.6.4.2 Open data
 beschikbaar maken voor derden](#c642-open-data-beschikbaar-maken-voor-derden).
@@ -155,10 +155,12 @@ resultaat van het onderzoek en ontwerp in een "Beslisdocument", wat effectief
 het *businessplan* voor het op te richten exploitatiebedrijf is. Alle
 bedrijfsprocessen worden uitgevoerd door het ontwikkelbedrijf.
 
-Ter ondersteuning van het beslisdocument worden de volgende dataproducten
-gevraagd:
+Ter ondersteuning van het opstellen van het beslisdocument worden de volgende
+dataproducten gevraagd:
 
-* TODO
+|Dataproduct|Functionele eisen|Beschrijving|Type|Oorsprong|
+|-----------|-----------------|------------|----|---------|
+|GV-meetdata|4                |Verbruiksprofielen (vermogen in kW) van *bedrijfsprocessen* op basis van historische data|Gesloten|Centraal|
 
 ## Realiseren
 
@@ -181,13 +183,6 @@ gevraagd:
 > TODO
 
 ## C.6.4.2 Open data beschikbaar maken voor derden
-
-> [!NOTE]
-> TODO
-
-# Dataproducten
-
-## Dataproduct: Nettopologie
 
 > [!NOTE]
 > TODO
