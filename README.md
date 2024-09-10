@@ -264,9 +264,6 @@ rijksoverheid en consultancybureau's. Deze capability betreft open data.
 
 ![C.6.4.2 Open data beschikbaar maken voor derden](assets/c642_open_data_beschikbaar_maken_voor_derden-20240909.png)
 
-- [ ] TODO: informatie wordt specifiek uitgeleverd per (potentiële) EnergyHub?
-- [ ] TODO: verdeling taken/bevoegdheden/verantwoordelijkheden?
-
 # Beslissingen & aannames
 
 ## Aannames
