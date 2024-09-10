@@ -48,6 +48,17 @@ De cohesie van de oplossing wordt toetsbaar gemaakt door de koppeling te maken
 tussen *functionele- en kwaliteitseisen*, *waardestroom* (gecreëerde waarde),
 *capabilities* en *proces- en data-uitwerking*.
 
+## TODO
+
+- [ ] Aanvullen functionele eisen voor realisatiebedrijf en exploitatiebedrijf
+- [ ] Verder uitwerken dataproducten voor *Onderzoek & ontwerp*
+- [ ] Toetsen aannames rondom inhoud en gebruik van dataproducten
+- [ ] Uitwerken *Realisatie*,  *Operationeel beheer* en *Evaluatie en
+  verbeteren*
+- [ ] Uitwerken *capabilities*: wie gaat wat doen en met welke tooling?
+- [ ] Uitwerken resterende informatiebehoefte tot dataproducten
+- [ ] Ontwerp vertalen naar *features*
+
 # Scope
 
 - [ ] TODO: beperken tot waardestroom "Optimaliseren van capaciteit voor lokale
@@ -259,14 +270,8 @@ rijksoverheid en consultancybureau's. Deze capability betreft open data.
 
 # Beslissingen & aannames
 
-## Beslissingen
-
 ## Aannames
 
-- [ ] TODO: ontvangt de netbeheerder gegevens van b.v. een aannemer?
-- [ ] TODO: wie bepaalt het energieprofiel van een specifieke GV-klant die
-      onderdeel is van een EnergyHub?
-- [ ] TODO: hoe handhaaft een netbeheerder het energieprofiel van een EnergyHub?
 - [ ] De blauwdruk vraagt om informatie over de "netsituatie en topologie".
   Binnen dit ontwerp wordt deze informatiebehoefte concreet gemaakt naar:
   - (actuele) capaciteit- en belastingprofielen van station,
@@ -275,13 +280,17 @@ rijksoverheid en consultancybureau's. Deze capability betreft open data.
   - geografische informatie van netcomponenten (huidig & gepland);
   - connectiviteitsinformatie van netcomponenten (huidig & gepland);
   - aansluit- en transportovereenkomst behorende bij een aansluiting (ATO).
+- [ ] Is het *Standaard opwekprofiel* gelijk in de implementatie als het
+  *Standaard verbruiksprofiel*? Dus per SBI-code, zonder weerinformatie
+- [ ] Primaire business case van een *Energy Hub* is peak-shaving en verkoop
+  van flexibiliteit
+- [ ] TODO: Wat is de business case voor een netbeheerder?
+- [ ] TODO: ontvangt de netbeheerder gegevens van b.v. een aannemer?
+- [ ] TODO: wie bepaalt het energieprofiel van een specifieke GV-klant die
+      onderdeel is van een EnergyHub?
+- [ ] TODO: hoe handhaaft een netbeheerder het energieprofiel van een EnergyHub?
 
 # Uitzonderingen op architectuurprincipes
 
-> [!NOTE]
-> TODO
-
-# Risico's & mitigatie
-
-> [!NOTE]
-> TODO
+Er zijn geen uitzonderingen gemaakt op basis van de door NBEA opgesteld
+Doelarchitectuur Datadelen.
