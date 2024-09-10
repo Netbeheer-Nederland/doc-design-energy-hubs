@@ -196,7 +196,7 @@ Ter ondersteuning van de analyse worden de volgende dataproducten gevraagd:
 |Dataproduct |Functionele eisen|Beschrijving|Type|Oorsprong|
 |------------|-----------------|------------|----|---------|
 |[Nettopologie](https://netbeheer-nederland.github.io/dp-eh-nettopologie/)|5                |Beschrijving van de topologie van een (mogelijke) *Energy Hub*. Het gaat hier zowel om informatie van *aansluitingen* die in aanmerking komen voor deelname aan de *Energy Hub*, als geografische informatie|Open|Decentraal|
-|SBI-profiel |1                |Algemene verbruiksdata per bedrijfsproces|Open|Centraal|
+|SBI verbruiksdata|1                |Algemene verbruiksdata per bedrijfsactiviteit|Open|Centraal|
 
 - [ ] TODO: zijn meer dataproducten nodig voor de verkenningsfase?
 
