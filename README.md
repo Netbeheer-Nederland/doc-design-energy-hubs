@@ -291,5 +291,5 @@ rijksoverheid en consultancybureau's. Deze capability betreft open data.
 
 # Uitzonderingen op architectuurprincipes
 
-Er zijn geen uitzonderingen gemaakt op basis van de door NBEA opgesteld
-Doelarchitectuur Datadelen.
+Er zijn geen uitzonderingen gemaakt op de principes beschreven in de
+*Doelarchitectuur Datadelen* van NBEA.
