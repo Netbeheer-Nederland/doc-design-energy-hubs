@@ -56,7 +56,7 @@ tussen *functionele- en kwaliteitseisen*, *waardestroom* (gecreëerde waarde),
 - [ ] Verder uitwerken dataproducten voor *Onderzoek & ontwerp*
 - [ ] Toetsen aannames rondom inhoud en gebruik van dataproducten
 - [ ] Uitwerken *Realisatie*,  *Operationeel beheer* en *Evaluatie en
-  verbeteren*
+  verbeteren*: capabilities, bedrijfsprocessen en dataproducten
 - [ ] Uitwerken *capabilities*: wie gaat wat doen en met welke tooling?
 - [ ] Uitwerken resterende informatiebehoefte tot dataproducten
 - [ ] Ontwerp vertalen naar *features*
