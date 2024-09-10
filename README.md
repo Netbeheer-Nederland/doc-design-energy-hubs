@@ -50,7 +50,9 @@ tussen *functionele- en kwaliteitseisen*, *waardestroom* (gecreëerde waarde),
 
 ## TODO
 
-- [ ] Aanvullen functionele eisen voor realisatiebedrijf en exploitatiebedrijf
+- [ ] Toetsen of Blauwdruk Energy Hubs van toepassing is
+- [ ] Aanvullen functionele eisen voor *realisatiebedrijf* en
+  *exploitatiebedrijf*
 - [ ] Verder uitwerken dataproducten voor *Onderzoek & ontwerp*
 - [ ] Toetsen aannames rondom inhoud en gebruik van dataproducten
 - [ ] Uitwerken *Realisatie*,  *Operationeel beheer* en *Evaluatie en
