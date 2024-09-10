@@ -53,6 +53,7 @@ tussen *functionele- en kwaliteitseisen*, *waardestroom* (gecreëerde waarde),
 - [ ] Toetsen of Blauwdruk Energy Hubs van toepassing is
 - [ ] Aanvullen functionele eisen voor *realisatiebedrijf* en
   *exploitatiebedrijf*
+- [ ] Kwaliteitseisen bepalen voor dataproducten en uitwerken
 - [ ] Verder uitwerken dataproducten voor *Onderzoek & ontwerp*
 - [ ] Toetsen aannames rondom inhoud en gebruik van dataproducten
 - [ ] Uitwerken *Realisatie*,  *Operationeel beheer* en *Evaluatie en
@@ -63,16 +64,12 @@ tussen *functionele- en kwaliteitseisen*, *waardestroom* (gecreëerde waarde),
 
 # Scope
 
-- [ ] TODO: beperken tot waardestroom "Optimaliseren van capaciteit voor lokale
-  energiesystemen
-- [ ] TODO: beperken tot capabilities van de netbeheerder om dataproducten aan
-  te kunnen leveren
-- [ ] TODO: input zijn functionele eisen, customer journey van WG EnergyHubs,
-  Blauwdruk EIGEN, ChatGPT, Doelarchitectuur Datadelen (NBEA)
-- [ ] TODO: Perspectief beperkt zich tot dat van regionale netbeheerder, met
-  focus op het leveren van dataproducten
-- [ ] TODO: Stakeholders (GV-klant, gemeente, ontwikkelbedrijf,
-  realisatiebedrijf, exploitatiebedrijf)
+De reikwijdte (*scope*) van de oplossing beschreven in dit ontwerp beperkt zich
+tot implementatie van de waardestroom "Optimaliseren van capaciteit voor lokale
+energiesystemen". Het perspectief van de oplossing wordt beperkt tot dat van de
+netbeheerder. Daar waar context en achtergrond vereist is om de oplossing
+kunnen toetsen aan de hand van de functionele eisen en informatiebehoefte wordt
+de *Blauwdruk Energy Hubs* gebruikt.
 
 ## Stakeholders
 
