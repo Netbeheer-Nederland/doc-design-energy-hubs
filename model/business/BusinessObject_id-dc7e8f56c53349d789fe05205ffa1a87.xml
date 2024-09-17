@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Open dataleveringsovereenkomst"
+    id="id-dc7e8f56c53349d789fe05205ffa1a87"
+    documentation="Beschrijft onder welke integratiepatronen een open dataproduct beschikbaar gemaakt wordt voor ALLE consumenten van de open data.&#xD;&#xA;&#xD;&#xA;- Expliciete acceptatie van alle voorwaarden van gebruik dataproduct (fair-use, commercieel, SLA, etc.)"/>

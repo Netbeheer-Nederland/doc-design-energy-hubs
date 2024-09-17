@@ -1,0 +1,5 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="C.6.4.2 Open data beschikbaar maken voor derden"
+    id="id-52d04e6982354d08bd22b6875900744c"
+    documentation="Het vermogen om open data beschikbaar te maken voor derden ten behoeve van energietransitie of anderszins omgevingsvraagstukken uit te wisselen met klanten en/of andere stakeholders als gemeenten, energiecorporaties, warmtebedrijven, woningcorporaties, provincies, rijksoverheid, consultancybureau's. De wet kent  vier soorten data delen. Deze capability betreft open data. &#xD;&#xA;&#xD;&#xA;Vraag: hoe gaan we om met cachen van decentrale datasets bij een broker? Impact op kosten en complexiteit van ondersteuning (verschillende lijnen nodig om incidenten te verhelpen).&#xD;&#xA;"/>

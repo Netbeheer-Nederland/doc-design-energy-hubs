@@ -1,0 +1,12 @@
+<archimate:RealizationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gerealiseerd door"
+    id="id-53ff14b8dd37421a9ac42d85ebd654af">
+  <source
+      xsi:type="archimate:Product"
+      href="Product_id-30eba6b94ed24da79119c001a16a6b91.xml#id-30eba6b94ed24da79119c001a16a6b91"/>
+  <target
+      xsi:type="archimate:BusinessService"
+      href="BusinessService_id-4ed9f0843fde43cc99b25a3399467a75.xml#id-4ed9f0843fde43cc99b25a3399467a75"/>
+</archimate:RealizationRelationship>
