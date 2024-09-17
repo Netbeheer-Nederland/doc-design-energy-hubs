@@ -1,0 +1,29 @@
+name: HTML Report
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths: 
+      - model
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - name: Build the report
+      run: >-
+        docker run --rm -i
+        -v "$(pwd)":/tmp/model
+        -v "$(pwd)/docs":/tmp/html
+        ghcr.io/dsample/archi-docker:main
+    - name: Commit the report
+      run: |
+        git config --global user.name "Archi"
+        git add docs
+        git diff-index --quiet HEAD || git commit -m 'Update report'
+        git push
